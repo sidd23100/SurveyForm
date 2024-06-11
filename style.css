@@ -7,7 +7,7 @@ body{
     line-height: 1.6;
     background-image: url("img/home.avif");
     background-repeat: no-repeat;
-    /* background: fixed; */
+    background: fixed; 
     background-attachment: fixed;
     background-size: cover;
     /* overflow: hidden; */
