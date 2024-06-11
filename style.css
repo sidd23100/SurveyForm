@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.6;
+    background-image: url("img/home.avif");
+    background-repeat: no-repeat;
+    /* background: fixed; */
+    background-attachment: fixed;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    /* background-color: #131320; */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin: auto;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+form input,
+form textarea,
+form select{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button{
+     padding: 10px;
+     margin: auto;
+     margin-top: 20px;
+     border-radius: 8px;
+     box-shadow: none;
+}
